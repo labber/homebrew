@@ -13,6 +13,8 @@ class Libtiff < Formula
     sha256 "818a699c6a293cccfbae8c8b1d0320c0fd8f7ca17c711fded8764f36d11a3db6" => :sierra
   end
 
+  depends_on "labber/lab/jpeg"
+
   # Patches are taken from latest Fedora package, which is currently
   # libtiff-4.0.10-2.fc30.src.rpm and whose changelog is available at
   # https://apps.fedoraproject.org/packages/libtiff/changelog/

@@ -16,7 +16,9 @@ class GdkPixbuf < Formula
   depends_on "pkg-config" => :build
   depends_on "python" => :build
   depends_on "glib"
+  depends_on "labber/lab/jpeg"
   depends_on "libpng"
+  depends_on "labber/lab/libtiff"
 
   # gdk-pixbuf has an internal version number separate from the overall
   # version number that specifies the location of its module and cache
