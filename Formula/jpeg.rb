@@ -2,8 +2,6 @@ class Jpeg < Formula
   desc "Image manipulation library"
   homepage "https://www.ijg.org/"
   url "https://www.ijg.org/files/jpegsrc.v8d.tar.gz"
-  mirror "https://dl.bintray.com/homebrew/mirror/jpeg-8d.tar.gz"
-  mirror "https://fossies.org/linux/misc/jpegsrc.v8d.tar.gz"
 
   bottle do
     cellar :any
